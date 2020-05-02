@@ -14,7 +14,7 @@
 &rarr; [Windows](https://httpd.apache.org/docs/current/platform/windows.html#down)
 &rarr; [Apache Haus](https://www.apachehaus.com/cgi-bin/download.plx)
 :  
-![](Download-icon_20px.png)
+![](media/Download-icon_20px.png)
 [Apache 2.4.43 x64 OpenSSL](https://de.apachehaus.com/downloads/httpd-2.4.43-o111g-x64-vc15.zip) (12 MB)
 
 ### Entpacken
@@ -46,7 +46,7 @@ Im Browser aufrufen: [`http://localhost`](http://localhost)
 &rarr; [Downloads](https://www.php.net/downloads)
 &rarr; [Windows](https://windows.php.net/download#php-7.4)
 :  
-![](Download-icon_20px.png)
+![](media/Download-icon_20px.png)
 [PHP 7.4.5 x64 Thread Safe](https://windows.php.net/downloads/releases/php-7.4.5-Win32-vc15-x64.zip) (25 MB)
 
 ### Entpacken
@@ -67,7 +67,7 @@ Entpacken nach `C:\Program Files\PHP`
 ### Apache neustarten
 Klick auf den ApacheMonitor &rarr; Apache2.4 &rarr; Restart
 :  
-![](help_apache_restart.png)
+![](media/help_apache_restart.png)
 
 ### Installation testen
 `C:\Program Files\Apache24\htdocs\phptest.php`:
@@ -87,7 +87,7 @@ Eclipse benötigt [Java](help_install_java.md).
 &rarr; [Download Packages](https://www.eclipse.org/downloads/packages/)
 &rarr; Eclipse IDE for PHP Developers
 :  
-![](Download-icon_20px.png)
+![](media/Download-icon_20px.png)
 [Windows 64-bit 2020-03](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-php-2020-03-R-win32-x86_64.zip) (223 MB)
 
 ### Entpacken
@@ -105,7 +105,7 @@ Entpacken nach `C:\Program Files\Eclipse`
 &rarr; [Downloads](https://git-scm.com/downloads)
 &rarr; [Windows](https://git-scm.com/download/win)
 :  
-![](Download-icon_20px.png)
+![](media/Download-icon_20px.png)
 [64-bit Git for Windows Setup 2.26.2](https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe) (46 MB)
 
 ### Installation starten
@@ -114,5 +114,5 @@ Entpacken nach `C:\Program Files\Eclipse`
 
 
 ## Nächstes Kapitel
-![](forward-icon_20px.png)
+![](media/forward-icon_20px.png)
 [Projekt `helloworld` installieren](install.md)

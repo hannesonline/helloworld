@@ -2,8 +2,8 @@
 Basic PHP course
 
 ## Vorbereitungen
-* [Entwicklungsumgebung einrichten unter Windows](basics.md)
-* [Projekt `helloworld` installieren](install.md)
+* [Entwicklungsumgebung einrichten unter Windows](doc/basics.md)
+* [Projekt `helloworld` installieren](doc/install.md)
 
 ## Erste Schritte
-* [Hello world!](chapter1_helloworld.md)
+* [Hello world!](doc/chapter1_helloworld.md)

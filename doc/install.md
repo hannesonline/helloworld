@@ -16,7 +16,7 @@ Projekt `helloworld` installieren
     git clone https://github.com/hannesonline/helloworld.git .
 
 ### Installation testen
-Im Browser aufrufen: [`http://localhost/meinewelt/index.php`](http://localhost/meinewelt/index.php)
+Im Browser aufrufen: [`http://localhost/meinewelt/001/index.php`](http://localhost/meinewelt/001/index.php)
 
 ### Projekt in Eclipse anlegen
 * `File` &rarr; `New` &rarr; `PHP Project`
@@ -27,5 +27,5 @@ Im Browser aufrufen: [`http://localhost/meinewelt/index.php`](http://localhost/m
 
 
 ## Nächstes Kapitel
-![](forward-icon_20px.png)
+![](media/forward-icon_20px.png)
 [Hello world!](chapter1_helloworld.md)
