@@ -1,4 +1,4 @@
-# Installation unter Windows
+# Entwicklungsumgebung einrichten unter Windows
 
 ## Empfohlene Tools
 ### 7-Zip
@@ -40,5 +40,79 @@ Im Browser aufrufen: [`http://localhost`](http://localhost)
 
 ## PHP
 
+### Herunterladen
+
+[PHP](https://www.php.net/)
+&rarr; [Downloads](https://www.php.net/downloads)
+&rarr; [Windows](https://windows.php.net/download#php-7.4)
+:  
+![](Download-icon_20px.png)
+[PHP 7.4.5 x64 Thread Safe](https://windows.php.net/downloads/releases/php-7.4.5-Win32-vc15-x64.zip) (25 MB)
+
+### Entpacken
+Entpacken nach `C:\Program Files\PHP`
+
+### "PHP's initialization file" (`php.ini`) erzeugen
+
+    cd "C:\Program Files\PHP"
+    copy php.ini-development php.ini
+
+### Im Apache registrieren
+`C:\Program Files\Apache24\conf\httpd.conf`:
+
+    LoadModule php7_module "C:/Program Files/PHP/php7apache2_4.dll" 
+    AddType application/x-httpd-php .php
+    PHPIniDir "C:/Program Files/PHP"
+
+### Apache neustarten
+Klick auf den ApacheMonitor &rarr; Apache2.4 &rarr; Restart
+:  
+![](help_apache_restart.png)
+
+### Installation testen
+`C:\Program Files\Apache24\htdocs\phptest.php`:
+
+    <?php
+    echo "Hello world.";
+Im Browser aufrufen: [`http://localhost/phptest.php`](http://localhost/phptest.php)
+
 ## Eclipse
 
+### Voraussetzungen
+Eclipse benötigt [Java](help_install_java.md).
+
+### Herunterladen
+
+[Eclipse Foundation](https://www.eclipse.org/)
+&rarr; [Download Packages](https://www.eclipse.org/downloads/packages/)
+&rarr; Eclipse IDE for PHP Developers
+:  
+![](Download-icon_20px.png)
+[Windows 64-bit 2020-03](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-php-2020-03-R-win32-x86_64.zip) (223 MB)
+
+### Entpacken
+Entpacken nach `C:\Program Files\Eclipse`
+
+### Installation testen
+
+    C:\Program Files\Eclipse\eclipse.exe
+
+## Git
+
+### Herunterladen
+
+[Git distributed version control system](https://git-scm.com/)
+&rarr; [Downloads](https://git-scm.com/downloads)
+&rarr; [Windows](https://git-scm.com/download/win)
+:  
+![](Download-icon_20px.png)
+[64-bit Git for Windows Setup 2.26.2](https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe) (46 MB)
+
+### Installation starten
+
+    Git-2.26.2-64-bit.exe
+
+
+## Nächstes Kapitel
+![](forward-icon_20px.png)
+[Projekt `helloworld` installieren](install.md)
