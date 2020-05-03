@@ -1,5 +1,5 @@
 # helloworld
-Basic PHP course
+Grundlagen des Programmierens.
 
 ## Vorbereitungen
 * [Entwicklungsumgebung einrichten unter Windows](doc/basics.md)

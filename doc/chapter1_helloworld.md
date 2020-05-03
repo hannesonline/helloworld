@@ -17,7 +17,7 @@ Das Projekt "`helloworld`" ist in Eclipse angelegt und der Browser zeigt:
 
 ## Ausgabe
 
- 
+
 
 ## Variablen
 
@@ -42,6 +42,15 @@ oder so:
 Rechnen kannst Du natürlich nur mit Zahlen:
 
     $summe = $summand1 + $summand2;
+
+Übrigens: `$i` um eins erhöhen ("inkrementieren") geht so:
+
+    $i = $i + 1;
+
+Und das braucht man beim Programmieren so oft, dass es dafür eine Kurzschreibweise gibt:
+
+    $i++;
+
 
 ## Schleifen
 
