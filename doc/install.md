@@ -1,6 +1,11 @@
 Projekt `helloworld` installieren
 =================================
 
+### Ziele
+Projektordner anlegen
+&rarr; Repository klonen
+&rarr; Projekt in Eclipse anlegen
+
 ### Voraussetzungen
 *Git*, *Apache* und *PHP* sind installiert und korrekt konfiguriert.  
 (Siehe: [Entwicklungsumgebung einrichten unter Windows](basics.md))

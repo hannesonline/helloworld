@@ -15,7 +15,35 @@ Das Projekt "`helloworld`" ist in Eclipse angelegt und der Browser zeigt:
 
 (Nachschlagen: ![](media/backward-icon_20px.png) [Projekt `helloworld` installieren](install.md))
 
-### ...
+## Ausgabe
+
+ 
+
+## Variablen
+
+Variablen können alle Datentypen speichern: Strings, Zahlen, Objekte, usw.:
+
+    $vorname = "Hans";
+    $lieblingszahl = 42;
+    $dbh = new PDO('mysql:host=localhost;dbname=meinewelt');
+
+Variablen ausgeben kannst Du so:
+
+    echo $vorname;
+
+oder so:
+
+    echo "Hallo $vorname!";
+
+oder so:
+
+    echo "Hallo " . $vorname . "!";
+
+Rechnen kannst Du natürlich nur mit Zahlen:
+
+    $summe = $summand1 + $summand2;
+
+## Schleifen
 
 
 ## Nächstes Kapitel

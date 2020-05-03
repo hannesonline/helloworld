@@ -1,5 +1,13 @@
 # Entwicklungsumgebung einrichten unter Windows
 
+## Ziele
+Installation einer WAMPE:
+* (**W**indows)
+* **A**pache
+* **M**ySQL (später)
+* **P**HP
+* **E**clipse
+
 ## Empfohlene Tools
 ### 7-Zip
 ### Notepad++
