@@ -1,6 +1,6 @@
 <?php
-class Logic1 {
-	public static function say_hello(){
+class Logic1 implements Logic {
+	public function get_body() {
 		$output = "";
 
 
