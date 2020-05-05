@@ -9,9 +9,27 @@ Installation einer WAMPE:
 * **E**clipse
 
 ## Empfohlene Tools
+
 ### 7-Zip
+[7-Zip](https://www.7-zip.de/)
+&rarr; [Download](https://www.7-zip.de/download.html)
+:  
+![](media/Download-icon_20px.png)
+[7-Zip 19.00 für Windows 64-bit .exe](https://7-zip.org/a/7z1900-x64.exe) (1 MB)
+
 ### Notepad++
+[Notepad++](https://notepad-plus-plus.org/)
+&rarr; [Downloads](https://notepad-plus-plus.org/downloads/)
+:  
+![](media/Download-icon_20px.png)
+[Notepad++ 7.8.6 64-bit Installer](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.6/npp.7.8.6.Installer.x64.exe) (4 MB)
+
 ### Firefox
+[Firefox Browser](https://www.mozilla.org/de/firefox/)
+&rarr; [Firefox Browser für Desktop Download](https://www.mozilla.org/de/firefox/new/)
+:  
+![](media/Download-icon_20px.png)
+[Firefox Installer.exe](https://www.mozilla.org/de/firefox/download/thanks/) (50 MB)
 
 ## Apache
 
@@ -93,10 +111,9 @@ Eclipse benötigt [Java](help_install_java.md).
 
 [Eclipse Foundation](https://www.eclipse.org/)
 &rarr; [Download Packages](https://www.eclipse.org/downloads/packages/)
-&rarr; Eclipse IDE for PHP Developers
 :  
 ![](media/Download-icon_20px.png)
-[Windows 64-bit 2020-03](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-php-2020-03-R-win32-x86_64.zip) (223 MB)
+[Eclipse IDE for PHP Developers, Windows 64-bit 2020-03](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-php-2020-03-R-win32-x86_64.zip) (223 MB)
 
 ### Entpacken
 Entpacken nach `C:\Program Files\Eclipse`
