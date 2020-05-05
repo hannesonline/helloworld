@@ -21,7 +21,7 @@ Projektordner anlegen
     git clone https://github.com/hannesonline/helloworld.git .
 
 ### Installation testen
-Im Browser aufrufen: [`http://localhost/meinewelt/001/index.php`](http://localhost/meinewelt/001/index.php)
+Im Browser aufrufen: [`http://localhost/meinewelt/index.php`](http://localhost/meinewelt/index.php)
 
 ### Projekt in Eclipse anlegen
 * `File` &rarr; `New` &rarr; `PHP Project`

@@ -61,6 +61,7 @@ class Content {
 			return "Unbekanntes Kapitel!";
 		}
 
+		flush();
 		ob_flush();
 		ob_start();
 		$body = $this->logic->get_body();
