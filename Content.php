@@ -1,6 +1,7 @@
 <?php
 
 require_once "Logic.php";
+require_once "common/HTML.php";
 
 class Content {
 
@@ -11,6 +12,7 @@ class Content {
 
 	private static $chapters = array(
 		"1" => "Kapitel 1: Hello world!",
+		"2" => "Kapitel 2: Wo befinden wir uns eigentlich?",
 	);
 
 	/**
@@ -37,7 +39,7 @@ class Content {
 		foreach (self::$chapters as $nr => $title){
 			$toc_options[] = "<option value='$nr'>$title</option>";
 		}
-		$toc_options = implode("\n", $toc_options);
+		$toc_options = implode("\n\t", $toc_options);
 
 		$toc.="<form method='get'>
 <select name='chapter'>
@@ -54,6 +56,10 @@ class Content {
 				require_once "001/Logic1.php";
 				$this->logic = new Logic1();
 				break;
+			case 2:
+				require_once "002/Logic2.php";
+				$this->logic = new Logic2();
+				break;
 			default:
 				break;
 		}
@@ -62,7 +68,6 @@ class Content {
 		}
 
 		flush();
-		ob_flush();
 		ob_start();
 		$body = $this->logic->get_body();
 		$body_echo = ob_get_clean();

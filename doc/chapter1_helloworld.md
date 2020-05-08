@@ -17,7 +17,9 @@ Das Projekt "`helloworld`" ist in Eclipse angelegt und der Browser zeigt:
 
 ## Ausgabe
 
-`echo` erwartet eine Zeichenkette und gibt diese auf dem Ausgabegerät (Bildschirm) aus.
+Ein **Compiler** (in unserem Fall die "[Zend Engine](https://de.wikipedia.org/wiki/Zend_Engine)") übersetzt Dein Programm in eine für den Computer verständliche Form. Er arbeitet Dein Programm Zeile für Zeile (genauer: Befehl für Befehl) ab. Bei Unterprogrammen, Bedingungen und Schleifen springt er an die entsprechende Stelle und ggf. wieder zurück.
+
+Der Befehl `echo` erwartet eine Zeichenkette und gibt diese auf dem Ausgabegerät (Bildschirm) aus.
 
 In unserem Fall
 (Server-[CGI](https://de.wikipedia.org/wiki/Common_Gateway_Interface))
@@ -101,6 +103,14 @@ Weitere Möglichkeiten, Wiederholungen zu programmieren:
 
 Jede Schleife lässt sich durch jede andere Schleife ausdrücken (programmieren). Aber das Ergebnis ist nicht immer gleich leserlich.
 
+Eine **Endlosschleife** ist ein Programmierfehler, der manchmal schwer zu finden ist und den ganzen Rechner in die Knie zwingen kann. Diese Endlosschleife verbraucht exponentiell Speicherplatz und führt daher schnell zu dem Fehler "`Fatal error: Allowed memory size exhausted`":
+
+    $memfiller = "A";
+    for ($i = 1; ; $i++) {
+        $memfiller .= $memfiller;
+        echo "$i,";
+    }
+
 ## Nächstes Kapitel
 ![](media/forward-icon_20px.png)
-...
+[Wo befinden wir uns eigentlich?](chapter2_techstack.md)

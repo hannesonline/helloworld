@@ -6,7 +6,7 @@ class Logic1 implements Logic {
 
 		//=========== Hier geht's los: ===========
 
-		//Kommentare ("//") werden vom Interpreter nicht beachtet.
+		//Kommentare ("//") werden vom Compiler nicht beachtet.
 
 		//Mit "echo" gibt man etwas aus.
 		//Alle Befehle werden mit einem Semikolon beendet.
